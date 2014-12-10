@@ -1,0 +1,108 @@
+.navbar-default{
+	height: 100px;
+}
+
+.navbarbrand{
+	max-height: 100%;
+	max-width: 100%;
+	
+}
+
+.container{
+	margin-right: 3%;
+	margin-left: 3%;
+}
+#mainlogo{
+	position: absolute;
+	/* top: -15px; */
+	max-width: 50%;
+}
+
+#spy{
+	width: 100%;
+}
+
+#asideimg{
+	width: 100%;
+}
+.main{
+	/* background-color: aqua; */
+	overflow: none;
+}
+
+.left{
+	/* background-color: purple; */
+	padding-bottom: 5px;
+}
+
+#headlinelogo{
+	padding: 3px;
+}
+
+.leftside{
+	/* background-color: gray; */
+	padding-top: 15px;
+	border-right: 1px solid gray;
+	
+}
+
+.midart{
+	border-bottom: 1px solid gray;
+}
+
+.leftart{
+	border-bottom: 2px dotted gray;
+	margin-bottom: 4px;
+}
+.right{
+	/* background-color: red; */
+}
+
+.main{
+	padding: 15px;
+}
+
+span{
+	font-weight: bold;
+}
+
+img{
+	max-width: 100%;
+	padding-top: 15px;
+}
+
+.floatleft{
+	float: left;
+	clear: both;
+	overflow: auto;
+	max-width: 100%;
+	padding: 6px;
+}
+
+/*
+.flaotright{
+	float: left;
+}
+*/
+
+.midart{
+	overflow: auto;
+}
+
+
+@media screen and (max-width: 960px){
+	img{
+		padding-top: 15px;
+	}
+	
+	.bang{
+		visibility: hidden;
+	}
+	
+}
+
+@media screen and (max-width: 505px){
+	img{
+		padding-top: 0;
+	}
+}
